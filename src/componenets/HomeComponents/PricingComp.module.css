@@ -1,0 +1,114 @@
+.container {
+    padding: 0 20px 120px;
+    margin: 0 auto;
+    border: none;
+}
+
+.leftPart h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #424242;
+    font-weight: 500;
+}
+
+.leftPart p{
+    font-size: 16px;
+    color: #424242;
+    margin: 16px 0 15px;
+    line-height: 1.8
+}
+
+/* .rightPart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+} */
+
+/* .rightPart p{
+    font-size: 10px;
+    color: #666;
+    line-height: 16px;
+    position: relative;
+    left: -20px;
+    top: 22px;
+    max-width: 100%;
+    display: inline-block;
+}
+
+.rightPart img{
+    max-width: 20%;
+    display: inline-block;
+} */
+
+.rirightPart {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.pricingBox{
+    display: inline;
+}
+
+.pricingBox p, .pricingBox img{
+    display: inline-block;
+}
+
+.pricingBox img{
+    max-width: 120px;
+}
+
+.pricingBox p{
+    position: relative;
+    top: 15px;
+    left: -10px;
+    font-size: 10px;
+    margin: 0;
+    color: #666;
+    line-height: 16px;
+}
+
+.link {
+    padding-right: 10px;
+    margin-bottom: 15px;
+}
+
+.link a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #387ed1;
+    font-weight: 500;
+    line-height: 1.8;
+}
+
+@media screen and (max-width:576px) {
+
+    .container {
+        padding: 30px 20px;
+    }
+
+    .leftPart h2{
+        font-size: 25px;
+        margin-bottom: 18px;
+    }
+
+    .leftPart p{
+        font-size: 14px;
+        margin-top: 12px;
+    }
+    
+    .pricingBox img{
+        max-width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+}
+
+
+@media screen and (max-width:995px) {
+    .pricingBox img{
+        max-width: 85px;
+    }
+}

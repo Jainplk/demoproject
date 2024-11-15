@@ -1,0 +1,702 @@
+/* navbar */
+
+.index {
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: rgb(97, 97, 97);
+    white-space: nowrap;
+  }
+  
+  .index-points {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: rgb(223, 73, 73);
+  }
+  
+  .percent {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgb(146, 146, 146);
+  }
+  
+  .KiteLogo img {
+    width: 30px;
+    height: 20px;
+  }
+  
+  .imgContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+  }
+  
+  .img {
+    width: 180px;
+    height: 170px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .accTable tr td {
+    padding: 10px;
+  }
+  
+  .personalTable1,
+  .personalTable2 {
+    padding-bottom: 15px;
+  }
+  
+  .investmentTable {
+    margin-top: 20px;
+  }
+  
+  .investmentTable tr th,
+  td {
+    padding: 10px;
+  }
+  
+  .bankDetail {
+    margin: 20px 0 20px 0;
+  }
+  
+  .logoutBtn {
+    max-width: 175px;
+    background-color: #387ed1;
+    color: #fff;
+    border-radius: 3px;
+    padding: 8px 30px;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    display: block;
+    margin: auto;
+  }
+  
+  .uploadBtn {
+    padding: 10px 33px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    color: #fff;
+    max-width: 160px;
+    background-color: #3e8e41;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .uploadBtn i {
+    margin-left: 5px;
+  }
+  
+  
+  /* watchlist search Container */
+  .watchlist-container {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+  
+  .search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 0 10px 0 10px;
+  }
+  
+  .search {
+    border: none;
+    width: 100%;
+    margin: 0;
+    padding: 12px 16px;
+    font-size: 14px;
+    color: #444;
+    margin-right: 10px;
+    border-radius: 5px;
+    color: rgb(241, 241, 241);
+  }
+  
+  .counts {
+    font-size: 14px;
+    color: #444;
+    font-weight: 500;
+  }
+  
+  /* watchlist items */
+  
+  .list {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 300;
+    font-size: 0.8rem;
+    padding: 2% 4% 5% 4%;
+    border-bottom: 0.8px solid rgb(235, 234, 234);
+  }
+  
+  .item-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  /* summary */
+  
+  .summary {
+    padding: 30px;
+  }
+  
+  .username h6 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgb(83, 83, 83);
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .divider {
+    border: none;
+    background: #d1d1d1;
+    height: 1px;
+    margin: 20px 0;
+    margin-bottom: 5%;
+  }
+  
+  .section {
+    padding-bottom: 2%;
+  }
+  
+  .section span {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2%;
+  }
+  
+  .section span p {
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+  
+  .section-icon {
+    transform: scale(0.8);
+    color: rgb(112, 112, 112);
+    padding: 0;
+    margin: 0;
+    margin-right: 10px;
+  }
+  
+  .data {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .data .first h3 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: rgb(71, 71, 71);
+  }
+  
+  .data .first p {
+    font-size: 0.8rem;
+    color: rgb(136, 136, 136);
+  }
+  
+  .data .first small {
+    font-size: 0.8rem;
+    color: rgb(72, 194, 55);
+  }
+  
+  .data .first .profit {
+    color: rgb(72, 194, 55);
+  }
+  
+  .data hr {
+    border-left: 0.6px solid rgb(243, 242, 242);
+    height: 70px;
+  }
+  
+  .data .second p {
+    font-size: 0.8rem;
+    color: rgb(136, 136, 136);
+    margin-bottom: 10px;
+    white-space: nowrap;
+  }
+  
+  .data .second p span {
+    display: inline;
+    margin-left: 5%;
+    font-size: 0.9rem;
+    color: rgb(100, 100, 100);
+  }
+  
+  .down {
+    color: rgb(223, 73, 73);
+  }
+  
+  .up {
+    color: rgb(103, 201, 136);
+  }
+  
+  .action {
+    background-color: #e1dfdf;
+    border: 0.7px solid #9b9b9b;
+  }
+  
+  .actions {
+    position: relative;
+    top: 0;
+    right: -120px;
+  }
+  
+  .actions span button {
+    width: 40px;
+    height: 20px;
+    border-radius: 4px;
+    text-align: center;
+    margin-right: 8px;
+    cursor: pointer;
+  }
+  
+  .buy {
+    width: 40px;
+    height: 30px;
+    background-color: #4184f3;
+    color: #fff;
+    font-weight: 400;
+    font-size: 0.8rem;
+    border: 0.7px solid #4184f3;
+  }
+  
+  .sell {
+    width: 40px;
+    height: 30px;
+    background-color: #ff5722;
+    color: #fff;
+    font-weight: 400;
+    font-size: 0.8rem;
+    border: 0.7px solid #ff5722;
+  }
+  
+  .icon {
+    transform: scale(0.7);
+    color: rgb(65, 65, 65);
+  }
+  
+  /* dropdown watchlist */
+  .dropdown{
+    display: none;
+  }
+  
+  .dropdown-menu{
+    display: none;
+  }
+  
+  .dropdownBtn{
+    width: 100%;
+    text-align: left;
+    border: none;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .dropdownBtn p{
+    flex-grow: 1;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+  }
+  
+  .dropdown-menu{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   max-width: 94%;
+   background: transparent;
+   background-color: transparent;
+   transform: translate(13px,2px)!important;
+  }
+  
+  /* orders */
+  
+  .orders {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+  }
+  
+  .no-orders {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .no-orders p {
+    margin-top: 6%;
+    color: rgb(173, 173, 173);
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  
+  .orderBtn {
+    background-color: #387ed1;
+    color: #fff;
+    border-radius: 3px;
+    padding: 10px 30px;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+  }
+  
+  /* holdings */
+  
+  .holdings {
+    padding: 30px;
+  }
+  
+  .title {
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: rgb(71, 71, 71);
+    margin-bottom: 2%;
+  }
+  
+  .order-table table {
+    width: 100%;
+    /* border-collapse: collapse; */
+  }
+  
+  .order-table tr {
+    border-top: 1px solid rgb(211, 211, 211);
+    border-bottom: 1px solid rgb(211, 211, 211);
+  }
+  
+  .order-table th {
+    text-align: right;
+    padding: 15px 10px;
+    color: rgb(145, 145, 145);
+    font-weight: 300;
+    font-size: 0.8rem;
+  }
+  
+  .order-table tr th:first-child,
+  .order-table tr td:first-child {
+    text-align: left;
+  }
+  
+  .order-table tr td:first-child p {
+    background: rgb(255, 197, 197);
+    color: rgb(233, 120, 120);
+    width: 50%;
+    text-align: center;
+    border-radius: 2px;
+  }
+  
+  .order-table tr td:last-child {
+    font-size: 0.6rem;
+  }
+  
+  .order-table td {
+    padding: 10px 10px;
+    text-align: right;
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: rgb(73, 73, 73);
+  }
+  
+  .align-left {
+    text-align: left;
+  }
+  
+  .order-table td.profit {
+    color: rgb(72, 194, 55);
+  }
+  
+  .order-table td.loss {
+    color: rgb(250, 118, 78);
+  }
+  
+  .col h5 {
+    font-size: 1.8rem;
+    color: rgb(71, 71, 71);
+    font-weight: 300;
+  }
+  
+  .col h5 span {
+    font-weight: 300;
+    font-size: 0.9rem;
+  }
+  
+  .col p {
+    font-size: 0.8rem;
+    color: rgb(153, 153, 153);
+    font-weight: 300;
+    margin-top: 2%;
+  }
+  
+  .row .col:last-child h5 {
+    color: rgb(72, 194, 55);
+  }
+  
+  /* positons */
+  .position {
+    padding: 30px;
+  }
+  
+  /* funds */
+  .funds {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+  }
+  
+  .zeroCostContent p {
+    font-size: 0.8rem;
+    color: rgb(179, 179, 179);
+    margin-right: 8px;
+    display: inline-block;
+    margin-top: 50px;
+  }
+  
+  .Btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 2px;
+    color: #fff;
+    margin-right: 2px;
+    margin-left: 2px;
+    border: none;
+  }
+  
+  .btn-green {
+    background: #4caf50;
+  }
+  
+  .btn-blue {
+    background: #4184f3;
+  }
+  
+  .table {
+    margin-top: 30px;
+    text-align: center;
+    border-spacing: 0 20px;
+    border-collapse: separate;
+  }
+  
+  .table td p {
+    font-size: 1rem;
+    color: rgb(136, 136, 136);
+    width: 300px;
+    font-weight: 400;
+    margin: 0;
+  }
+  
+  
+  .table td {
+    font-size: 0.8rem;
+    color: rgb(136, 136, 136);
+    width: 300px;
+  }
+  
+  .commodity {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .commodity p {
+    margin-bottom: 30px;
+    color: #4d4d4d;
+  }
+  
+  .signupBtn {
+    max-width: 175px;
+    background-color: #387ed1;
+    color: #fff;
+    border-radius: 3px;
+    padding: 8px 30px;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+  }
+  
+  /* profile */
+  .userProfile {
+    padding: 30px;
+  }
+  
+  @media screen and (max-width:993px) {
+    .index {
+      font-size: 0.9rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+  
+    .index-points {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+  
+    .KiteLogo {
+      display: none;
+    }
+  
+    .zeroCostContent p {
+      display: inline-block;
+      margin-top: 50px;
+    }
+  
+    .personalTable1 div,
+    .personalTable2 div {
+      margin-top: 20px;
+    }
+  
+    .personalTable1,
+    .personalTable2 {
+      padding-bottom: 0;
+    }
+  
+    .infoTitle {
+      margin-right: 30px;
+    }
+  
+    .table {
+      margin-top: 15px;
+    }
+  
+    .table td p {
+      font-size: 0.9rem;
+      width: 150px;
+    }
+  
+    .table td {
+      font-size: 0.8rem;
+      width: 150px;
+    }
+  
+    .item {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      font-weight: 500;
+      font-size: 0.85rem;
+      padding: 10px;
+      border-bottom: none;
+    }
+  
+    .item p{
+      margin: 0 10px 0 10px;
+    }
+  
+    .itemInfo span{
+      font-size: 14px;
+      margin: 0 10px 0 10px;
+    }
+  
+    .search {
+      width: 75%;
+      background-color: #dfdbdb79;
+      font-weight: 500;
+    }
+  
+    .topBar {
+      background-color: rgba(255, 255, 255, 0.55);
+      backdrop-filter: blur(3px);
+    }
+  
+    .watchlistLenght{
+      background-color: #dfdbdb79;
+      padding: 13px;
+      border-radius: 50%;
+      border: 2px solid #387ed1;
+    }
+  
+    .dropdown {
+      display: block;
+    }
+  
+    .order-table{
+      overflow-x: auto;
+    }
+
+    .tobarLogoutBtn {
+      display: block;
+      max-width: 185px;
+      background-color: #387ed1;
+      color: #fff;
+      border-radius: 3px;
+      padding: 8px 40px;
+      font-size: 15px;
+      font-weight: 500;
+      margin-top: 15px;
+      border: none;
+      margin-left: 18px;
+  }
+
+  .tobarLogoutBtn i{
+      margin-left: 5px;
+  }
+  
+  }
+  
+  @media screen and (max-width:576px) {
+    .zeroCostContent p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+    }
+  
+    .personalTable1,
+    .personalTable2 {
+      padding-bottom: 0;
+      font-size: 14px;
+    }
+  
+    .infoTitle {
+      margin-right: 10px;
+    }
+  
+    .dropdown {
+      display: block;
+    }
+  
+    .item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-weight: 500;
+      font-size: 0.85rem;
+      padding: 10px;
+      border-bottom: none;
+    }
+  
+    .watchlistLenght{
+      background-color: #dfdbdb79;
+      padding: 10px 5px;
+      border-radius: 50%;
+      border: 2px solid #387ed1;
+    }
+  
+  }

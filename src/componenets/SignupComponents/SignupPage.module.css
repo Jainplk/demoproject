@@ -1,0 +1,106 @@
+.signupContainer {
+    padding: 20vh 0 20vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 20vh 0;
+}
+
+.trackApp {
+    color: #9b9b9b;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.formContainer input {
+    max-width: 300px;
+    padding-top: 6px;
+    margin-top: 25px;
+}
+
+.formContainer label {
+    font-size: 14px;
+    color: #424242;
+    font-weight: 500;
+    margin-left: 8px;
+}
+
+.formContainer i {
+    margin-right: 8px;
+}
+
+.errors {
+    font-size: 12px;
+    color: rgb(234, 20, 20);
+    font-weight: 500;
+}
+
+.signupBtn {
+    max-width: 175px;
+    background-color: #387ed1;
+    color: #fff;
+    border-radius: 3px;
+    padding: 8px 30px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 25px;
+    border: none;
+}
+
+.loginInfo Link {
+    color: #387ed1;
+    font-weight: 500;
+}
+
+.loginMsg {
+    font-size: 13px;
+    margin-top: 20px;
+    color: #424242;
+    font-weight: 500;
+}
+
+.imgContainer img {
+    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
+}
+
+.contentInfo {
+    margin-top: 50px;
+}
+
+.contentInfo p {
+    font-size: 12px;
+    color: #9b9b9b;
+    text-align: center;
+}
+
+@media screen and (max-width:992px) {
+    .formContainer input {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .container {
+        padding: 0 5vh 0;
+    }
+
+    .signupContainer {
+        padding: 10vh 0 10vh;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .formContainer h1 {
+        font-size: 25px;
+        color: #424242;
+    }
+
+    .imgContainer img {
+        margin-top: 50px;
+    }
+    
+}

@@ -1,0 +1,64 @@
+section {
+    border: none;
+    padding: 20px 20px 80px;
+}
+
+.heading {
+    font-size: 24px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #444;
+}
+
+a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #387ed1;
+}
+
+a:hover{
+    color: #444;
+}
+
+.ticketHeading a{
+    color: #444;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.ticketHeading{
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+
+.ticketHeading a:hover{
+    color: #387ed1;
+}
+
+.ticketHeading i {
+    color: #444;
+    padding-right: 5px;
+
+}
+
+.ticketHeading i:hover{
+    color: #387ed1;
+}
+
+.ticketTopic li{
+    margin-top: 10px;
+    list-style: none;
+    line-height: 1.7;
+}
+
+@media screen and (max-width:992px) {
+    section {
+        border: none;
+        padding: 30px 20px;
+    }
+
+    .ticketHeading a{
+        font-size: 18px;
+    }
+}

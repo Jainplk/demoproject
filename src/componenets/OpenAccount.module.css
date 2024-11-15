@@ -1,0 +1,55 @@
+.container{
+    padding: 40px 0 80px;
+    margin: 0 auto;
+    border: none;
+}
+
+.content {
+    text-align: center;
+    display: flex;
+    justify-content: center
+}
+
+.content h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #424242;
+    font-weight: 500;
+}
+
+.content p{
+    font-size: 18px;
+    margin: 16px 0 15px;
+    font-weight: 400;
+    color: #666;
+}
+
+.signupBtn {
+    max-width: 175px;
+    background-color: #387ed1;
+    color: #fff;
+    border-radius: 3px;
+    padding: 8px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 15px;
+    border: none;
+}
+
+@media screen and (max-width:576px) {
+    .container{
+        padding: 30px 20px;
+    }
+
+    .content h2 {
+        font-size: 25px;
+    }
+
+    .content p{
+        font-size: 16px;
+        margin: 10px 0 15px;
+        font-weight: 400;
+        color: #666;
+    }
+}
+

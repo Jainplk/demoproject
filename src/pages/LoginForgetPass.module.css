@@ -1,0 +1,109 @@
+.LoginSection {
+    background-color: #f8f8f8;
+    padding-bottom: 0;
+}
+
+.container{
+    margin: 60px auto 0 auto;
+   display: flex;
+   justify-content: center;
+}
+
+.logo img{
+    max-width: 60px;
+    margin-bottom: 30px;
+}
+
+.cardContainer h2{
+    color: #444;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.cardContainer{
+    width: 350px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    box-shadow: 1px 1px 4px #eee;
+    border-radius: 5px;
+    border: 2px solid #eee;
+}
+
+.formContainer input{
+    max-width: 300px;
+   padding-top: 6px;
+   margin-top: 25px;
+
+}
+
+.formContainer label{
+  font-size: 14px;
+  color: #424242;
+  font-weight: 500;
+  margin-left: 8px;
+}
+.formContainer i{
+    margin-right: 8px;
+}
+
+.errors {
+    font-size: 12px;
+    color: rgb(234, 20, 20);
+    font-weight: 500;
+}
+
+.signupBtn {
+    width:100% ;
+    background-color: #ff5722;
+    color: #fff;
+    border-radius: 3px;
+    padding: 8px 30px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 25px;
+    border: none;
+}
+
+.footer{
+margin: 60px auto 0 auto;
+text-align: center;
+}
+
+.appIcon i{
+    color: #444;
+   margin-right: 10px;
+   margin-left: 10px;
+    font-size: 16px;
+}
+
+.appIcon i:hover{
+    color:#387ed1;
+}
+
+.footer img {
+    max-width: 100px;
+    margin-top: 26px;
+    opacity: 0.7;
+    
+}
+
+.signupLink{
+    color: #9b9b9b;
+    margin: 12px 0 12px;
+    font-size: 12px;
+}
+
+.signupLink:hover {
+    color:#387ed1;
+}
+
+.footerContent{
+    margin: auto;
+    max-width: 300px;
+    font-size: 10px;
+    color: #9b9b9b;
+}

@@ -1,0 +1,94 @@
+.aboutTech{
+    border: none;
+    padding-top: 80px;
+}
+
+.aboutTech h5{
+    font-size: 20px;
+    color: #424242;
+    line-height: 1.7;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 1.2;
+    margin: 60px 0 20px;
+}
+
+.patnerProduct{
+    padding-top: 80px;
+    border: none;
+}
+
+.patnerProduct h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: #424242;
+    font-weight: 500;
+    line-height: 1.7;
+}
+
+.patnerProduct p{
+    text-align: center;
+    line-height: 1.7;
+    font-size: 16px;
+    color: #424242;
+    margin: 16px 0 15px;
+}
+
+.aboutPaters{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.aboutPaters img{
+    margin-top: 20px;
+    height: 55px;
+    max-width: 100%;
+}
+
+.aboutPaters p{
+    margin-top: 20px;
+    font-size: 12px;
+    color: #9b9b9b;
+    line-height: 18px;
+    font-weight: 500;
+    padding-bottom: 40px;
+}
+
+.btn{
+    border: none;
+    padding: 0 0 80px;
+    text-align: center;
+}
+
+.signupBtn {
+    max-width: 175px;
+    background-color: #387ed1;
+    color: #fff;
+    border-radius: 3px;
+    padding: 8px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 15px;
+    border: none;
+}
+
+@media screen and (max-width: 575px) {
+    .aboutTech{
+       padding: 0;
+    }
+
+    .aboutTech h5{
+        margin: 30px 0 20px;
+    }
+
+    .patnerProduct{
+        padding-top: 35px;
+    }
+}
+
+@media screen and (max-width:776px) {
+    .aboutPaters{
+       text-align: center;
+    }
+}
